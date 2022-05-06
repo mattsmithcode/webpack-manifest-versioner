@@ -1,0 +1,33 @@
+{
+  "name": "webpack-manifest-versioner",
+  "version": "0.1.0",
+  "description": "Replace file names in specified files with versioned names",
+  "license": "ISC",
+  "author": "Matt Smith",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattsmithcode/webpack-manifest-versioner.git"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "watch": "tsc --build --watch"
+  },
+  "dependencies": {
+    "schema-utils": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "webpack": "^5.72.0"
+  },
+  "peerDependencies": {
+    "webpack": "^5.1.0"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "manifest",
+    "version",
+    "hash"
+  ]
+}
